@@ -1,5 +1,5 @@
 const clientId = '1ed7f638335a4b4a97ed1145a0929725';
-const redirect_uri = 'http://localhost:3000/';
+const redirect_uri = 'https://relaxed-snickerdoodle-e3eb2b.netlify.app/';
 let accessToken;
 
 const Spotify = {
