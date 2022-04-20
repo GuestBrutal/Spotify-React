@@ -28,9 +28,10 @@
 }
 
 .Track-information p {
+  text-align: left;
   font-size: .83rem;
-  font-weight: 300;
-  color: rgba(256, 256, 256, 0.8);
+  font-weight: 500;
+  color: black;
 }
 
 @media only screen and (max-width: 375px) {

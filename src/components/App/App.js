@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
-import PlayList from '../PlayList/PlayList';
+import PlayList from '../PlaynpList/PlayList';
 import Spotify from '../../util/Spotify';
 
 class App extends Component {
@@ -63,8 +63,13 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>Ja<span className="highlight">mmm</span>ing</h1>
+        <div className="header">
+          <img className="highlight"src="https://i.ibb.co/kQ1PSZ0/gigih.png" alt="gigih" border="0"></img>
+        </div>
         <div className="App">
+          <h1>Halo! SiGigih</h1>
+          <p className="atas">Selamat Datang di Spotify-nya SiGigih KM_G2FE4280</p>
+          <p className="bawah">Ayo Buat Playlist dari Lagu Favorit Kamu dibawah Ini!</p>
           <SearchBar onSearch={this.search} />
           <div className="App-playlist">
             <SearchResults searchResults={this.state.searchResults} onAdd={this.addTrack} />

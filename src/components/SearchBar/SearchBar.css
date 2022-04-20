@@ -7,11 +7,11 @@
 }
 
 .SearchBar input {
-  width: 287px;
+  width: 100%;
   padding: .88rem 0;
   border: 1px solid #fff;
-  border-radius: 3px;
-  margin-bottom: 2.22rem;
+  border-radius: 30px;
+  margin-bottom: 1rem;
   color: #010c3f;
   text-align: center;
   font-size: 1rem;
@@ -26,12 +26,13 @@
   width: 8.11rem;
   padding: .77rem 0;
   border-radius: 54px;
-  background-color: #010c3f;
+  background-color: #1BAC4B;
   text-align: center;
   font-size: .833rem;
   transition: background-color .25s;
 }
 
 .SearchBar a:hover {
-  background-color: rgba(108, 65, 233, .7);
+  background-color: white;
+  color:#1BAC4B;
 }
